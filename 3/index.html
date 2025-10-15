@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Serpents | NFT Gaming Collection</title>
+    
+    <!-- Fonts: VT323 for that retro pixel look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- Swiper.js CSS for the slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            --bg-color: #050510;
+            --primary: #00ff9d; /* Neon Green */
+            --secondary: #bd00ff; /* Neon Purple */
+            --text: #ffffff;
+            --dark-overlay: rgba(0, 0, 0, 0.7);
+            --font-pixel: 'VT323', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text);
+            font-family: var(--font-pixel);
+            font-size: 20px;
+            overflow-x: hidden;
+            line-height: 1.4;
+        }
+
+        /* --- UTILITIES & FX --- */
+        .pixelated {
+            image-rendering: pixelated;
+        }
+
+        /* CRT Scanline Effect Overlay */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(
+                to bottom,
+                rgba(255,255,255,0),
+                rgba(255,255,255,0) 50%,
+                rgba(0,0,0,0.2) 50%,
+                rgba(0,0,0,0.2)
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 999;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* --- UI ELEMENTS --- */
+        /* Retro Pixel Button Style */
+        .btn {
+            display: inline-block;
+            background: transparent;
+            color: var(--primary);
+            font-family: var(--font-pixel);
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 30px;
+            position: relative;
+            cursor: pointer;
+            border: 4px solid var(--primary);
+            box-shadow: 
+                inset -4px -4px 0px 0px #005e3a,
+                4px 4px 0px 0px #000;
+            transition: all 0.1s;
+        }
+
+        .btn:hover {
+            background: var(--primary);
+            color: #000;
+            box-shadow: 
+                inset -4px -4px 0px 0px #005e3a,
+                2px 2px 0px 0px #000;
+            transform: translate(2px, 2px);
+        }
+
+        .btn:active {
+            box-shadow: inset 4px 4px 0px 0px #005e3a;
+            transform: translate(4px, 4px);
+        }
+
+        .btn.secondary {
+            color: var(--secondary);
+            border-color: var(--secondary);
+            box-shadow: inset -4px -4px 0px 0px #4b0066, 4px 4px 0px 0px #000;
+        }
+        .btn.secondary:hover {
+            background: var(--secondary);
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 4px 4px 0px #000;
+        }
+
+        /* --- HEADER --- */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            padding: 20px 0;
+            background: rgba(5, 5, 16, 0.8);
+            backdrop-filter: blur(5px);
+            border-bottom: 2px solid #222;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 1.2rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        /* --- HERO SECTION (Holds Three.js) --- */
+        #hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align_items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        #canvas-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 800px;
+            background: rgba(0,0,0,0.6);
+            padding: 40px;
+            border: 4px solid #222;
+        }
+
+        .hero-content h1 {
+            font-size: 5rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .hero-content p {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+
+        .glitch {
+            position: relative;
+        }
+        
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+        }
+        
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--secondary);
+            clip: rect(24px, 550px, 90px, 0);
+            animation: glitch-anim 3s infinite linear alternate-reSerpents;
+        }
+        
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--primary);
+            clip: rect(85px, 550px, 140px, 0);
+            animation: glitch-anim 2s infinite linear alternate-reSerpents;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip: rect(13px, 9999px, 81px, 0); }
+            20% { clip: rect(96px, 9999px, 12px, 0); }
+            40% { clip: rect(42px, 9999px, 65px, 0); }
+            60% { clip: rect(3px, 9999px, 94px, 0); }
+            80% { clip: rect(68px, 9999px, 29px, 0); }
+            100% { clip: rect(75px, 9999px, 56px, 0); }
+        }
+
+        /* --- COLLECTION / SLIDER SECTION --- */
+        #collection {
+            padding: 100px 0;
+            background-color: #0a0a14;
+            background-image: 
+                linear-gradient(rgba(10,10,20,0.9), rgba(10,10,20,0.9)),
+                url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"><rect width="2" height="2" fill="%23222"/></svg>');
+            border-top: 4px solid var(--primary);
+            border-bottom: 4px solid var(--primary);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 3.5rem;
+            color: var(--secondary);
+        }
+
+        /* Swiper Styling */
+        .swiper {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            /* Pixel border for NFT Cards */
+            background-color: #111;
+            border: 4px solid #333;
+            box-shadow: 8px 8px 0px #000;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s;
+        }
+
+        .swiper-slide-active {
+            transform: scale(1.05);
+            border-color: var(--primary);
+            z-index: 2;
+        }
+
+        /* CSS Placeholder for NFT Image */
+        .nft-img-placeholder {
+            width: 100%;
+            height: 70%;
+            background: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Generative pixel art via CSS gradients for demo */
+        .art-1 { background: linear-gradient(45deg, #00ff9d 25%, transparent 25%), linear-gradient(-45deg, #00ff9d 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #00ff9d 75%), linear-gradient(-45deg, transparent 75%, #00ff9d 75%); background-size: 20px 20px; background-color: #050510;}
+        .art-2 { background: conic-gradient(from 90deg at 50% 50%, #bd00ff 0deg, #050510 90deg, #00ff9d 180deg, #050510 270deg); image-rendering: pixelated;}
+        .art-3 { background: repeating-linear-gradient(0deg, #bd00ff, #bd00ff 10px, #000 10px, #000 20px); }
+        .art-4 { background: radial-gradient(circle at 50% 50%, #00ff9d 10%, #000 10%, #000 20%, #bd00ff 20%, #bd00ff 30%); background-size: 40px 40px; }
+
+        .nft-info {
+            padding: 15px;
+            text-align: center;
+            border-top: 4px solid #333;
+            background: #1a1a1a;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .nft-info h3 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .nft-info p {
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--text);
+            border-radius: 0;
+            width: 12px;
+            height: 12px;
+            opacity: 0.5;
+        }
+        .swiper-pagination-bullet-active {
+            background: var(--primary);
+            opacity: 1;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 2px solid #222;
+            font-size: 1.2rem;
+            color: #888;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 3.5rem; }
+            .hero-content p { font-size: 1.4rem; }
+            .nav-links { display: none; } /* Simplify for mobile demo */
+            .btn { padding: 10px 20px; font-size: 1.2rem; display: block; margin: 10px auto; width: fit-content;}
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CRT Effect Overlay -->
+    <div class="scanlines"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">PIXEL<span style="color:var(--secondary)">Serpents</span></div>
+                <div class="nav-links">
+                    <a href="#hero">HOME</a>
+                    <a href="#collection">COLLECTION</a>
+                    <a href="#roadmap">ROADMAP</a>
+                </div>
+                <a href="#" class="btn" style="font-size: 1rem; padding: 5px 15px; border-width: 2px;">Connect Wallet</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Three.js Background -->
+    <section id="hero">
+        <div id="canvas-container"></div>
+        
+        <div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center;">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="ENTER THE GRID">ENTER THE GRID</h1>
+                <p>8,888 Gen-1 Pixel Fighters battling on the blockchain. Minting Now.</p>
+                <div style="margin-top: 20px;">
+                    <a href="#mint" class="btn">MINT NFT</a>
+                    <a href="#discord" class="btn secondary" style="margin-left: 15px;">JOIN DISCORD</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NFT Slider Section -->
+    <section id="collection">
+        <div class="container">
+            <div class="section-header">
+                <h2>GEN-1 FIGHTERS</h2>
+                <p style="font-size: 1.5rem; color: #aaa;">> Select your character_</p>
+            </div>
+
+            <!-- Swiper Container -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="nft-img-placeholder art-1"></div>
+                        <div class="nft-info">
+                            <h3>CYBER RONIN #01</h3>
+                            <p>RARE • 0.08 ETH</p>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="nft-img-placeholder art-2"></div>
+                        <div class="nft-info">
+                            <h3>NEON STALKER #42</h3>
+                            <p>LEGENDARY • 0.5 ETH</p>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="nft-img-placeholder art-3"></div>
+                        <div class="nft-info">
+                            <h3>GRID RUNNER #99</h3>
+                            <p>COMMON • 0.05 ETH</p>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="nft-img-placeholder art-4"></div>
+                        <div class="nft-info">
+                            <h3>VOID WALKER #07</h3>
+                            <p>EPIC • 0.2 ETH</p>
+                        </div>
+                    </div>
+                     <!-- Slide 5 -->
+                     <div class="swiper-slide">
+                        <div class="nft-img-placeholder art-1" style="filter: hue-rotate(90deg);"></div>
+                        <div class="nft-info">
+                            <h3>TOXIC PUNK #12</h3>
+                            <p>RARE • 0.09 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Pixel Serpents PROJECT. ALL RIGHTS RESERVED.</p>
+            <p style="color: var(--primary); margin-top: 10px;">PRESS START TO CONTINUE</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Swiper.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        // ---------------------------------------------------------
+        // 1. SWIPER SLIDER INITIALIZATION
+        // ---------------------------------------------------------
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            initialSlide: 1,
+            loop: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: false, // Disable default shadows for pixel look
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20
+                },
+                // when window width is >= 640px
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        // ---------------------------------------------------------
+        // 2. THREE.JS DYNAMIC RETRO GRID EFFECT
+        // ---------------------------------------------------------
+        const container = document.getElementById('canvas-container');
+        
+        // Scene, Camera, Renderer
+        const scene = new THREE.Scene();
+        // Add a subtle fog for depth
+        scene.fog = new THREE.FogExp2(0x050510, 0.08); 
+
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: false }); // Antialias false makes it look more jagged/pixelated
+        
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio > 1 ? 1 : window.devicePixelRatio); // Keep pixel ratio low for retro feel
+        container.appendChild(renderer.domElement);
+
+        // Geometry: Create a Plane (the grid floor)
+        // Width, Height, WidthSegments, HeightSegments
+        const planeGeometry = new THREE.PlaneGeometry(60, 60, 40, 40);
+        
+        // Material: Wireframe for retro synthwave look
+        const planeMaterial = new THREE.MeshBasicMaterial({ 
+            color: 0bd00ff, // Neon Purple base
+            wireframe: true,
+        });
+
+        // Create two planes to create an infinite loop effect
+        const plane = new THREE.Mesh(planeGeometry, planeMaterial);
+        const plane2 = new THREE.Mesh(planeGeometry, planeMaterial);
+
+        // Rotate to make them a floor
+        plane.rotation.x = -Math.PI / 2;
+        plane2.rotation.x = -Math.PI / 2;
+
+        // Position
+        plane.position.y = -2;
+        plane2.position.y = -2;
+        
+        // Place plane2 behind plane1
+        plane2.position.z = -60;
+
+        scene.add(plane);
+        scene.add(plane2);
+
+        // Add some "Floating Pixels" (Particles)
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particlesCount = 500;
+        const posArray = new Float32Array(particlesCount * 3);
+
+        for(let i = 0; i < particlesCount * 3; i++) {
+            // Spread particles around
+            posArray[i] = (Math.random() - 0.5) * 50;
+        }
+
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        
+        // Creates square particles
+        const particlesMaterial = new THREE.PointsMaterial({
+            size: 0.15,
+            color: 0x00ff9d
+        });
+
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+
+        // Camera positioning
+        camera.position.z = 5;
+        camera.position.y = 1;
+
+        // Animation Loop
+        const speed = 0.15;
+        
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Move planes towards camera
+            plane.position.z += speed;
+            plane2.position.z += speed;
+
+            // Reset position for infinite loop
+            if (plane.position.z >= 60) {
+                plane.position.z = -60;
+            }
+            if (plane2.position.z >= 60) {
+                plane2.position.z = -60;
+            }
+
+            // Animate Particles
+            particlesMesh.rotation.y += 0.001;
+            particlesMesh.position.z += speed / 2;
+            if(particlesMesh.position.z > 10) {
+                particlesMesh.position.z = -20;
+            }
+            
+            // Dynamic color shift on the grid based on time
+            const time = Date.now() * 0.001;
+            plane.material.color.setHSL( Math.sin(time * 0.1), 0.8, 0.5 );
+            plane2.material.color.setHSL( Math.sin(time * 0.1), 0.8, 0.5 );
+
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        // Handle Window Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+</body>
+</html>

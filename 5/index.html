@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Serpents | NFT Gaming Collection</title>
+    
+    <!-- Fonts: Press Start 2P for headers, Roboto Mono for text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper.js CSS (For the slider) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        :root {
+            --bg-color: #050505;
+            --primary: #00ff4c; /* Serpent Green */
+            --secondary: #9d00ff; /* Deep Purple */
+            --accent: #00f7ff; /* Cyan */
+            --text: #ffffff;
+            --text-dim: #aaaaaa;
+            --pixel-size: 4px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text);
+            font-family: 'Roboto Mono', monospace;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, .pixel-font {
+            font-family: 'Press Start 2P', cursive;
+            text-transform: uppercase;
+            line-height: 1.4;
+        }
+
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+
+        /* --- Three.js Canvas Container --- */
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6; /* Slight fade so content pops */
+        }
+
+        /* --- UI Elements (Pixelated Style) --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* NES-style pixel borders using box-shadow */
+        .pixel-box {
+            background: var(--bg-color);
+            position: relative;
+            padding: 20px;
+            box-shadow:
+                0 calc(var(--pixel-size) * -1) 0 0 var(--text),
+                0 var(--pixel-size) 0 0 var(--text),
+                calc(var(--pixel-size) * -1) 0 0 0 var(--text),
+                var(--pixel-size) 0 0 0 var(--text);
+        }
+
+        .btn {
+            display: inline-block;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 12px;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: #000;
+            cursor: pointer;
+            position: relative;
+            /* Pixel border trick */
+            box-shadow: inset -4px -4px 0px 0px rgba(0,0,0,0.5),
+                        4px 4px 0px 0px #000;
+            transition: transform 0.1s;
+            user-select: none;
+        }
+
+        .btn:active {
+            transform:translate(2px, 2px);
+            box-shadow: inset -2px -2px 0px 0px rgba(0,0,0,0.5),
+                        2px 2px 0px 0px #000;
+        }
+
+        .btn-secondary {
+            background: var(--secondary);
+            color: #fff;
+        }
+
+        /* --- Header --- */
+        header {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #222;
+            background: rgba(5,5,5,0.8);
+            backdrop-filter: blur(5px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 18px;
+            color: var(--primary);
+            text-shadow: 2px 2px 0px var(--secondary);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a:hover { color: var(--primary); }
+
+        /* --- Hero Section --- */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(24px, 5vw, 56px);
+            margin-bottom: 20px;
+        }
+
+        .glitch {
+            position: relative;
+            color: var(--text);
+        }
+        
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+        }
+        
+        .glitch::before {
+            color: var(--primary);
+            z-index: -1;
+            animation: glitch-anim 3s infinite linear alternate-reSerpents;
+        }
+
+        .glitch::after {
+            color: var(--secondary);
+            z-index: -2;
+            animation: glitch-anim 2s infinite linear alternate;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip-path: inset(10% 0 80% 0); transform: translate(-2px, 0); }
+            20% { clip-path: inset(80% 0 5% 0); transform: translate(2px, 2px); }
+            40% { clip-path: inset(40% 0 40% 0); transform: translate(-2px, -2px); }
+            60% { clip-path: inset(5% 0 90% 0); transform: translate(2px, 0); }
+            80% { clip-path: inset(60% 0 20% 0); transform: translate(-2px, 2px); }
+            100% { clip-path: inset(20% 0 60% 0); transform: translate(2px, -2px); }
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        /* --- Collection Slider Section --- */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 50px;
+            color: var(--accent);
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            background: #111;
+            /* Pixel border for slides */
+            box-shadow:
+                0 -4px 0 0 var(--secondary),
+                0 4px 0 0 var(--secondary),
+                -4px 0 0 0 var(--secondary),
+                4px 0 0 0 var(--secondary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Placeholder NFT Art Generation (CSS Only) */
+        .nft-art-placeholder {
+            flex: 1;
+            width: 100%;
+            image-rendering: pixelated;
+            background-color: #000;
+            background-image: 
+                linear-gradient(45deg, #111 25%, transparent 25%), 
+                linear-gradient(-45deg, #111 25%, transparent 25%), 
+                linear-gradient(45deg, transparent 75%, #111 75%), 
+                linear-gradient(-45deg, transparent 75%, #111 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Giving each placeholder a unique look */
+        .nft-1 .nft-art-placeholder { background-color: #1a001a; }
+        .nft-1 .nft-art-placeholder::after { content: '🐍'; font-size: 80px; filter: drop-shadow(4px 4px 0 var(--primary)); }
+        
+        .nft-2 .nft-art-placeholder { background-color: #001a00; }
+        .nft-2 .nft-art-placeholder::after { content: '🥚'; font-size: 80px; filter: drop-shadow(4px 4px 0 var(--accent)); }
+        
+        .nft-3 .nft-art-placeholder { background-color: #001a1a; }
+        .nft-3 .nft-art-placeholder::after { content: '💀'; font-size: 80px; filter: drop-shadow(4px 4px 0 var(--secondary)); }
+        
+        .nft-4 .nft-art-placeholder { background-color: #1a1a00; }
+        .nft-4 .nft-art-placeholder::after { content: '👑'; font-size: 80px; filter: drop-shadow(4px 4px 0 #fff); }
+
+        .nft-info {
+            padding: 15px;
+            background: #000;
+            border-top: 4px solid var(--secondary);
+        }
+
+        .nft-name {
+            color: var(--primary);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .nft-id {
+            color: var(--text-dim);
+            font-size: 10px;
+        }
+
+        /* Swiper Pagination Pixels */
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: #333;
+            opacity: 1;
+            border-radius: 0; /* Make them square */
+        }
+
+        .swiper-pagination-bullet-active {
+            background: var(--primary);
+        }
+
+        /* --- About/Lore Section --- */
+        .lore-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .lore-text h3 { 
+            color: var(--primary); margin-bottom: 20px; font-size: 20px;
+        }
+
+        .lore-text p { margin-bottom: 20px; font-size: 14px; }
+
+        .lore-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 15px;
+            border: 2px solid #333;
+            background: #0a0a0a;
+        }
+
+        .stat-number {
+            font-family: 'Press Start 2P';
+            color: var(--accent);
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .stat-label { font-size: 12px; color: #666; }
+
+        /* --- Footer --- */
+        footer {
+            border-top: 4px solid #222;
+            padding: 40px 0;
+            text-align: center;
+            background: #000;
+            margin-top: 50px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            font-family: 'Press Start 2P';
+            font-size: 10px;
+            color: var(--text-dim);
+        }
+        .social-links a:hover { color: var(--primary); }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            nav { display: none; /* Simplify for mobile demo */ }
+            .lore-grid { grid-template-columns: 1fr; }
+            .hero-content h1 { font-size: 28px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Three.js Background -->
+    <div id="canvas-container"></div>
+
+    <!-- Header -->
+    <div class="container">
+        <header>
+            <a href="#" class="logo pixel-font">Pixel Serpents</a>
+            <nav>
+                <ul>
+                    <li><a href="#collection" class="pixel-font" style="font-size: 10px;">Collection</a></li>
+                    <li><a href="#lore" class="pixel-font" style="font-size: 10px;">Lore</a></li>
+                    <li><a href="#roadmap" class="pixel-font" style="font-size: 10px;">Roadmap</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn">Connect Wallet</a>
+        </header>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch pixel-font" data-text="Awaken the Serpents">Awaken the Serpents</h1>
+                <p>8,888 procedurally generated pixel serpents battling on the blockchain. Mint your warrior, enter the arcade arena, and claim your throne.</p>
+                <div style="margin-top: 20px;">
+                    <a href="#mint" class="btn" style="margin-right: 10px;">MINT NOW</a>
+                    <a href="#discord" class="btn btn-secondary">JOIN DISCORD</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NFT Slider Section -->
+    <section id="collection" class="section" style="background: #080808;">
+        <div class="container">
+            <h2 class="section-title pixel-font">The Collection</h2>
+            
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide nft-1">
+                        <div class="nft-art-placeholder"></div>
+                        <div class="nft-info">
+                            <h3 class="nft-name pixel-font">Venom Striker</h3>
+                            <p class="nft-id">#0042</p>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide nft-2">
+                        <div class="nft-art-placeholder"></div>
+                        <div class="nft-info">
+                            <h3 class="nft-name pixel-font">Ancient Egg</h3>
+                            <p class="nft-id">#1337</p>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide nft-3">
+                        <div class="nft-art-placeholder"></div>
+                        <div class="nft-info">
+                            <h3 class="nft-name pixel-font">Bone Rattler</h3>
+                            <p class="nft-id">#0888</p>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide nft-4">
+                        <div class="nft-art-placeholder"></div>
+                        <div class="nft-info">
+                            <h3 class="nft-name pixel-font">Golden King</h3>
+                            <p class="nft-id">#0001</p>
+                        </div>
+                    </div>
+                     <!-- Duplicate Slide for loop effect -->
+                     <div class="swiper-slide nft-1">
+                        <div class="nft-art-placeholder"></div>
+                        <div class="nft-info">
+                            <h3 class="nft-name pixel-font">Venom Striker</h3>
+                            <p class="nft-id">#0043</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Lore/About Section -->
+    <section id="lore" class="section">
+        <div class="container">
+            <div class="pixel-box">
+                <div class="lore-grid">
+                    <div class="lore-text">
+                        <h3 class="pixel-font">The 8-Bit Prophecy</h3>
+                        <p>In the digital ruins of the old web, the Pixel Serpents have awakened. Generated from the lost code of arcade legends, these creatures seek masters to lead them in the upcoming Play-to-Earn arena.</p>
+                        <p>Holding a Serpent grants you access to the Arena, exclusive airdrops, and voting rights in the DAO.</p>
+                        <a href="#" class="btn btn-secondary">Read Whitepaper</a>
+                    </div>
+                    <div class="lore-stats">
+                        <div class="stat-box">
+                            <div class="stat-number">8,888</div>
+                            <div class="stat-label">Total Supply</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number">0.05 ETH</div>
+                            <div class="stat-label">Mint Price</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Traits</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-number">GAME</div>
+                            <div class="stat-label">Utility</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="pixel-font" style="font-size: 12px; color: #666;">&copy; 2023 Pixel Serpents. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Discord</a>
+                <a href="#">OpenSea</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        /* -----------------------------------------------
+           1. Initialize Swiper (NFT Slider)
+        ----------------------------------------------- */
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            initialSlide: 1,
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: "auto",
+                }
+            }
+        });
+
+        /* -----------------------------------------------
+           2. Three.js Dynamic Pixel Background
+           Effect: Floating "pixel" cubes in serpent colors
+        ----------------------------------------------- */
+        const container = document.getElementById('canvas-container');
+        
+        const scene = new THREE.Scene();
+        // Add some fog for depth
+        scene.fog = new THREE.FogExp2(0x050505, 0.05);
+
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        container.appendChild(renderer.domElement);
+
+        // Geometry for the "pixels" (cubes)
+        const geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+        
+        // Materials - Serpent Green and Purple
+        const materialGreen = new THREE.MeshBasicMaterial({ color: 0x00ff4c, wireframe: true });
+        const materialPurple = new THREE.MeshBasicMaterial({ color: 0x9d00ff, wireframe: false });
+
+        const cubes = [];
+        const cubeCount = 200;
+
+        for (let i = 0; i < cubeCount; i++) {
+            // Alternate materials
+            const mat = Math.random() > 0.5 ? materialGreen : materialPurple;
+            const cube = new THREE.Mesh(geometry, mat);
+
+            // Random positioning in a cloud
+            cube.position.x = (Math.random() - 0.5) * 50;
+            cube.position.y = (Math.random() - 0.5) * 50;
+            cube.position.z = (Math.random() - 0.5) * 50;
+
+            // Give them random rotation speeds
+            cube.userData = {
+                rsX: (Math.random() - 0.5) * 0.02,
+                rsY: (Math.random() - 0.5) * 0.02,
+                rsZ: (Math.random() - 0.5) * 0.02,
+                speedY: (Math.random() * 0.02) + 0.01 // drifting up
+            };
+
+            scene.add(cube);
+            cubes.push(cube);
+        }
+
+        camera.position.z = 15;
+
+        // Animation Loop
+        let time = 0;
+        function animate() {
+            requestAnimationFrame(animate);
+            time += 0.005;
+
+            // Slowly rotate entire camera/scene for dynamic feel
+            scene.rotation.y = Math.sin(time) * 0.2;
+            scene.rotation.x = Math.cos(time * 0.5) * 0.1;
+
+            // Animate individual cubes
+            cubes.forEach(cube => {
+                cube.rotation.x += cube.userData.rsX;
+                cube.rotation.y += cube.userData.rsY;
+                cube.rotation.z += cube.userData.rsZ;
+                
+                // Make them drift slowly upwards like digital bubbles
+                cube.position.y += cube.userData.speedY;
+
+                // Reset position if they go too high (infinite loop effect)
+                if(cube.position.y > 25) {
+                    cube.position.y = -25;
+                }
+            });
+
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        // Handle Window Resize
+        window.addEventListener('resize', onWindowResize, false);
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+    </script>
+</body>
+</html>

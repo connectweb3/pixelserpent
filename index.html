@@ -1,0 +1,244 @@
+<![DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PILI na kayo 1 to 9</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #ffffff;
+      --accentA: #00ffff;
+      --accentB: #ff00ff;
+    }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #scene {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      outline: none;
+    }
+    .overlay {
+      position: fixed;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      user-select: none;
+      pointer-events: none;
+    }
+    .title {
+      font-size: clamp(20px, 4vw, 38px);
+      margin: 0 0 10px 0;
+      letter-spacing: 1px;
+      background: linear-gradient(90deg, var(--accentA), var(--accentB));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 12px rgba(255,255,255,0.15);
+    }
+    .subtitle {
+      font-size: clamp(12px, 2vw, 14px);
+      opacity: 0.8;
+      margin: 0;
+    }
+    .footer {
+      position: fixed;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 12px;
+      opacity: 0.6;
+      user-select: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="scene" aria-label="3D menu of boxes 1 to 9"></canvas>
+
+  <div class="overlay">
+    <h1 class="title">PILI na kayo 1 to 9</h1>
+    <p class="subtitle">Click or tap a 3D box to open the corresponding page</p>
+  </div>
+  <div class="footer">Use mouse or touch to select a box</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script>
+    // Renderer
+    const canvas = document.getElementById('scene');
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    // Scene & Camera
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(
+      45,
+      window.innerWidth / window.innerHeight,
+      0.1,
+      1000
+    );
+    camera.position.set(0, 0, 12);
+
+    // Create numbered texture using canvas
+    function makeNumberTexture(n) {
+      const size = 512;
+      const c = document.createElement('canvas');
+      c.width = c.height = size;
+      const ctx = c.getContext('2d');
+
+      // background
+      ctx.fillStyle = '#111111';
+      ctx.fillRect(0, 0, size, size);
+
+      // border gradient
+      const grad = ctx.createLinearGradient(0, 0, size, size);
+      grad.addColorStop(0, '#00ffff');
+      grad.addColorStop(1, '#ff00ff');
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = 24;
+      ctx.strokeRect(24, 24, size - 48, size - 48);
+
+      // number
+      ctx.fillStyle = '#ffffff';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      // Fit font size dynamically
+      ctx.font = 'bold 320px Arial';
+      ctx.fillText(String(n), size / 2, size / 2 + 10);
+
+      const tex = new THREE.CanvasTexture(c);
+      tex.anisotropy = 8;
+      tex.needsUpdate = true;
+      return tex;
+    }
+
+    // Create 3x3 grid of cubes, numbered 1..9
+    const cubes = [];
+    const spacing = 4; // distance between centers
+    for (let i = 0; i < 9; i++) {
+      const num = i + 1;
+      const col = i % 3;                // 0,1,2
+      const row = Math.floor(i / 3);    // 0,1,2
+
+      const x = (col - 1) * spacing;    // -1,0,1 -> spread across X
+      const y = (1 - row) * spacing;    //  1,0,-1 -> spread across Y
+
+      const geom = new THREE.BoxGeometry(2.2, 2.2, 2.2);
+      const tex = makeNumberTexture(num);
+      const mat = new THREE.MeshBasicMaterial({ map: tex });
+
+      // Same material on all faces
+      const cube = new THREE.Mesh(geom, [mat, mat, mat, mat, mat, mat]);
+      cube.position.set(x, y, 0);
+      cube.userData = { href: `./${num}/index.html` };
+      scene.add(cube);
+      cubes.push(cube);
+    }
+
+    // Subtle background starfield points for depth
+    {
+      const stars = new THREE.BufferGeometry();
+      const starCount = 800;
+      const positions = new Float32Array(starCount * 3);
+      for (let i = 0; i < starCount; i++) {
+        positions[i * 3 + 0] = (Math.random() - 0.5) * 80;
+        positions[i * 3 + 1] = (Math.random() - 0.5) * 80;
+        positions[i * 3 + 2] = -20 - Math.random() * 40;
+      }
+      stars.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+      const starMat = new THREE.PointsMaterial({ size: 0.08, color: 0x88ffff });
+      const starMesh = new THREE.Points(stars, starMat);
+      scene.add(starMesh);
+    }
+
+    // Interaction (raycasting)
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+    let hovered = null;
+
+    function updatePointerFromEvent(evt) {
+      const rect = renderer.domElement.getBoundingClientRect();
+      const x = (evt.clientX - rect.left) / rect.width;
+      const y = (evt.clientY - rect.top) / rect.height;
+      mouse.x = x * 2 - 1;
+      mouse.y = -(y * 2 - 1);
+    }
+
+    function handleHover() {
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObjects(cubes, false);
+      if (hovered && (!hits.length || hits[0].object !== hovered)) {
+        hovered.scale.set(1, 1, 1);
+        hovered = null;
+        canvas.style.cursor = 'default';
+      }
+      if (hits.length) {
+        const obj = hits[0].object;
+        if (hovered !== obj) {
+          if (hovered) hovered.scale.set(1, 1, 1);
+          hovered = obj;
+          hovered.scale.set(1.15, 1.15, 1.15);
+        }
+        canvas.style.cursor = 'pointer';
+      }
+    }
+
+    function handleClick() {
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObjects(cubes, false);
+      if (hits.length) {
+        const { href } = hits[0].object.userData;
+        window.location.href = href; // Navigate to ./1/, ./2/, ... ./9/
+      }
+    }
+
+    canvas.addEventListener('mousemove', (e) => {
+      updatePointerFromEvent(e);
+      handleHover();
+    });
+    canvas.addEventListener('click', handleClick);
+
+    // Touch support
+    canvas.addEventListener(
+      'touchstart',
+      (e) => {
+        const t = e.touches[0];
+        updatePointerFromEvent({ clientX: t.clientX, clientY: t.clientY });
+        handleHover();
+        handleClick();
+      },
+      { passive: true }
+    );
+
+    // Animation
+    function animate() {
+      requestAnimationFrame(animate);
+      // Subtle idle rotation
+      cubes.forEach((c, idx) => {
+        c.rotation.y += 0.01;
+        c.rotation.x += 0.005;
+      });
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // Resize handling
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>]>

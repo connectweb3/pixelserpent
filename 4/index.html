@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Serpents - NFT Gaming Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 3px solid #ff00ff;
+        }
+
+        .logo {
+            font-size: 2em;
+            text-shadow: 2px 2px #00ffff;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff00ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 4px 4px #00ffff;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            background-color: #ff00ff;
+            color: #0a0a0a;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border: 3px solid #00ffff;
+            box-shadow: 5px 5px 0px #00ffff;
+            transition: all 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #00ffff;
+            color: #0a0a0a;
+            border-color: #ff00ff;
+            box-shadow: 5px 5px 0px #ff00ff;
+        }
+
+        .nft-collections {
+            padding: 50px 0;
+        }
+
+        .nft-collections h2 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 40px;
+            text-shadow: 3px 3px #ff00ff;
+        }
+
+        .slider-container {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 5px solid #00ffff;
+            padding: 20px;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .nft-card {
+            flex: 0 0 33.333%;
+            max-width: 33.333%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .nft-card img {
+            width: 100%;
+            border: 3px solid #ff00ff;
+            margin-bottom: 15px;
+        }
+
+        .nft-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .slider-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .slider-nav button {
+            background-color: rgba(0, 255, 255, 0.5);
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 1.5em;
+            transition: background-color 0.3s;
+        }
+
+        .slider-nav button:hover {
+            background-color: rgba(255, 0, 255, 0.8);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 3px solid #00ffff;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="container">
+        <header>
+            <div class="logo">Pixel Serpents</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Collections</a>
+                <a href="#">Roadmap</a>
+                <a href="#">Team</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Unleash the Pixel Serpents</h1>
+            <p>A unique collection of generative pixel art serpents slithering on the blockchain.</p>
+            <a href="#" class="cta-button">Join our Discord</a>
+        </section>
+
+        <section class="nft-collections">
+            <h2>Our Collections</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="nft-card">
+                        <img src="https://via.placeholder.com/300x300.png?text=Serpent+1" alt="Pixel Serpent NFT 1">
+                        <h3>Genesis Serpent</h3>
+                        <p>The first generation of Pixel Serpents.</p>
+                    </div>
+                    <div class="nft-card">
+                        <img src="https://via.placeholder.com/300x300.png?text=Serpent+2" alt="Pixel Serpent NFT 2">
+                        <h3>Shadow Serpent</h3>
+                        <p>A rare and elusive serpent from the dark depths.</p>
+                    </div>
+                    <div class="nft-card">
+                        <img src="https://via.placeholder.com/300x300.png?text=Serpent+3" alt="Pixel Serpent NFT 3">
+                        <h3>Golden Serpent</h3>
+                        <p>A legendary serpent with scales of pure gold.</p>
+                    </div>
+                    <div class="nft-card">
+                        <img src="https://via.placeholder.com/300x300.png?text=Serpent+4" alt="Pixel Serpent NFT 4">
+                        <h3>Cyber Serpent</h3>
+                        <p>A serpent from a dystopian, pixelated future.</p>
+                    </div>
+                    <div class="nft-card">
+                        <img src="https://via.placeholder.com/300x300.png?text=Serpent+5" alt="Pixel Serpent NFT 5">
+                        <h3>Spirit Serpent</h3>
+                        <p>An ethereal serpent that haunts the blockchain.</p>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button id="prevBtn">&lt;</button>
+                    <button id="nextBtn">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Pixel Serpents. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Three.js Background Effect
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({
+            canvas: document.querySelector('#bg-canvas'),
+        });
+
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.position.setZ(30);
+
+        const particleCount = 5000;
+        const particles = new THREE.BufferGeometry();
+        const positions = new Float32Array(particleCount * 3);
+
+        for (let i = 0; i < particleCount * 3; i++) {
+            positions[i] = (Math.random() - 0.5) * 100;
+        }
+
+        particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+        const particleMaterial = new THREE.PointsMaterial({
+            size: 0.1,
+            color: 0x00ffff,
+        });
+
+        const particleSystem = new THREE.Points(particles, particleMaterial);
+        scene.add(particleSystem);
+
+        function animate() {
+            requestAnimationFrame(animate);
+
+            particleSystem.rotation.x += 0.0001;
+            particleSystem.rotation.y += 0.0002;
+
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // NFT Slider
+        const slider = document.querySelector('.slider');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const cards = document.querySelectorAll('.nft-card');
+        const cardWidth = cards[0].offsetWidth;
+        let currentIndex = 0;
+
+        function updateSlider() {
+            slider.style.transform = `translateX(${-currentIndex * cardWidth}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < cards.length - 3) {
+                currentIndex++;
+                updateSlider();
+            }
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateSlider();
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            const newCardWidth = cards[0].offsetWidth;
+            if (newCardWidth !== cardWidth) {
+                location.reload(); 
+            }
+        });
+    </script>
+
+</body>
+</html>

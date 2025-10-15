@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Serpents | Genesis Collection</title>
+    
+    <!-- Google Fonts: Pixel and Futuristic styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <style>
+        :root {
+            --neon-green: #00ff41;
+            --dark-green: #003b0f;
+            --bg-black: #050505;
+            --panel-bg: rgba(10, 10, 10, 0.85);
+            --text-main: #e0e0e0;
+            --font-header: 'Press Start 2P', cursive;
+            --font-body: 'Rajdhani', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-black);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* --- Typography & General UI --- */
+        h1, h2, h3 {
+            font-family: var(--font-header);
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 2px 2px 0px var(--dark-green);
+        }
+
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+
+        /* Pixel Border CSS Trick */
+        .pixel-border {
+            background: var(--panel-bg);
+            box-shadow: 
+                0 -4px 0 0 var(--bg-black), 
+                0 4px 0 0 var(--bg-black), 
+                -4px 0 0 0 var(--bg-black), 
+                4px 0 0 0 var(--bg-black), 
+                0 -8px 0 0 var(--neon-green), 
+                0 8px 0 0 var(--neon-green), 
+                -8px 0 0 0 var(--neon-green), 
+                8px 0 0 0 var(--neon-green);
+            margin: 8px;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn {
+            font-family: var(--font-header);
+            font-size: 0.8rem;
+            padding: 12px 24px;
+            background: var(--neon-green);
+            color: var(--bg-black);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            display: inline-block;
+            box-shadow: inset -4px -4px 0px 0px var(--dark-green);
+            transition: transform 0.1s;
+        }
+
+        .btn:hover {
+            background: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px var(--neon-green), inset -4px -4px 0px 0px #aaa;
+        }
+
+        .btn:active {
+            transform: translateY(2px);
+        }
+
+        /* --- Three.js Background --- */
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* Scanline Overlay for Retro Feel */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0.6));
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 100;
+            opacity: 0.3;
+        }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* --- Navigation --- */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+        }
+
+        .logo {
+            font-family: var(--font-header);
+            font-size: 1.2rem;
+            color: var(--neon-green);
+            text-shadow: 0 0 10px var(--neon-green);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .nav-links a:hover { color: var(--neon-green); text-shadow: 0 0 8px var(--neon-green); }
+
+        /* --- Hero Section --- */
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 40px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .glitch-text {
+            position: relative;
+            animation: glitchColor 3s infinite;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            color: #aaa;
+        }
+
+        /* --- Collection Slider Section --- */
+        .section { padding: 100px 0; }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-header h2 { font-size: 2rem; margin-bottom: 15px; color: var(--neon-green);}
+
+        .slider-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .slider-track {
+            display: flex;
+            gap: 30px;
+            transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        .nft-card {
+            min-width: 300px;
+            max-width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .nft-card:hover {
+            transform: scale(1.05);
+        }
+
+        .nft-img-placeholder {
+            width: 100%;
+            height: 260px;
+            background: #000;
+            image-rendering: pixelated;
+            margin-bottom: 20px;
+            border: 4px solid var(--dark-green);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .nft-img-placeholder svg { width: 100%; height: 100%; }
+
+        .nft-info h3 { font-size: 1rem; margin-bottom: 10px; }
+        .nft-info p { color: var(--neon-green); font-weight: bold; }
+
+        .slider-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: 2px solid var(--neon-green);
+            color: var(--neon-green);
+            width: 50px;
+            height: 50px;
+            font-family: var(--font-header);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: var(--neon-green);
+            color: #000;
+            box-shadow: 0 0 15px var(--neon-green);
+        }
+
+        /* --- Footer --- */
+        footer {
+            border-top: 2px solid var(--dark-green);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+            background: #020202;
+        }
+
+        /* --- Animations --- */
+        @keyframes glitchColor {
+            0% { text-shadow: 4px 4px 0px var(--dark-green); }
+            50% { text-shadow: -4px -2px 0px rgba(255,0,0,0.5), 4px 2px 0px rgba(0,0,255,0.5); }
+            100% { text-shadow: 4px 4px 0px var(--dark-green); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CRT Overlay Effect -->
+    <div class="scanlines"></div>
+
+    <!-- Three.js Canvas -->
+    <div id="canvas-container"></div>
+
+    <div class="container">
+        <nav>
+            <div class="logo">PIXEL<br>SERPENTS</div>
+            <div class="nav-links">
+                <a href="#lore">Lore</a>
+                <a href="#collection">Collection</a>
+                <a href="#roadmap">Roadmap</a>
+            </div>
+            <button class="btn">CONNECT WALLET</button>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content pixel-border">
+                <h1 class="glitch-text">AWAKEN THE<br><span style="color:var(--neon-green)">DIGITAL VENOM</span></h1>
+                <p>8,888 algoritmically generated Pixel Serpents slithering on the Ethereum Blockchain. Play-to-Earn ready.</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn" style="font-size: 1.2rem;">MINT NOW</button>
+                    <p style="font-size: 0.8rem; margin-top: 10px; color: var(--neon-green);">Public Sale Live</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Collection Slider -->
+        <section id="collection" class="section">
+            <div class="section-header">
+                <h2>The Brood</h2>
+                <p>Rare traits, futuristic gear, and deadly aesthetics.</p>
+            </div>
+
+            <div class="slider-container">
+                <div class="slider-track" id="nft-track">
+                    <!-- Javascript will inject NFT cards here -->
+                </div>
+            </div>
+
+            <div class="slider-nav">
+                <button class="nav-btn" id="prevBtn">&lt;</button>
+                <button class="nav-btn" id="nextBtn">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Simple Roadmap -->
+        <section id="roadmap" class="section">
+            <div class="pixel-border" style="padding: 40px;">
+                <div class="section-header">
+                    <h2>Roadmap v1.0</h2>
+                </div>
+                <ul style="list-style: none; font-family: var(--font-header); font-size: 0.8rem;">
+                    <li style="margin-bottom: 20px;">[Q1] > MINTING & REVEAL <span style="color:var(--neon-green)">[DONE]</span></li>
+                    <li style="margin-bottom: 20px;">[Q2] > SERPENT STAKING (Earn $VENOM)</li>
+                    <li style="margin-bottom: 20px;">[Q3] > PVP ARENA BETA LAUNCH</li>
+                    <li style="margin-bottom: 20px;">[Q4] > METAVERSE INTEGRATION</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 PIXEL SERPENTS. All Rights Reserved on the Blockchain.</p>
+    </footer>
+
+    <!-- JavaScript Area -->
+    <script>
+        /* -----------------------------------------------------------
+           1. DYNAMIC THREE.JS BACKGROUND (Digital Terrain Effect)
+        ----------------------------------------------------------- */
+        const scene = new THREE.Scene();
+        // Fog to blend the horizon into black
+        scene.fog = new THREE.FogExp2(0x050505, 0.03);
+
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+        // Create a plane geometry for the digital terrain
+        const geometry = new THREE.PlaneGeometry(100, 100, 60, 60);
+        
+        // Creates the "wireframe" grid look
+        const material = new THREE.MeshBasicMaterial({ 
+            color: 0x00ff41, // Neon Green
+            wireframe: true,
+            transparent: true,
+            opacity: 0.3
+        });
+
+        const plane = new THREE.Mesh(geometry, material);
+        scene.add(plane);
+
+        // Rotate plane to be flat like ground
+        plane.rotation.x = -Math.PI / 2; 
+        plane.position.y = -10;
+
+        camera.position.z = 20;
+        camera.position.y = 5;
+
+        // Store original vertices to animate them
+        const positionAttribute = geometry.getAttribute('position');
+        const originalPositions = Array.from(positionAttribute.array);
+        let count = 0;
+
+        function animateThree() {
+            requestAnimationFrame(animateThree);
+
+            count += 0.05; // speed of undulation
+
+            // Animate vertices to create wave/terrain effect
+            const positions = geometry.attributes.position.array;
+            for (let i = 0; i < originalPositions.length; i += 3) {
+                // Modify Z (which is Y once rotated) based on X and Y
+                const x = originalPositions[i];
+                const y = originalPositions[i + 1];
+                // Create sine wave movement
+                positions[i + 2] = Math.sin(x / 5 + count) * 3 + Math.cos(y / 5 + count) * 3;
+            }
+            geometry.attributes.position.needsUpdate = true;
+
+            // Slowly rotate the grid and move camera
+            plane.rotation.z += 0.001;
+            
+            renderer.render(scene, camera);
+        }
+
+        // Handle Window Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        animateThree();
+
+        /* -----------------------------------------------------------
+           2. NFT SLIDER LOGIC & PLACEHOLDER GENERATION
+        ----------------------------------------------------------- */
+        
+        // Generate SVG Pixel Art Placeholders programmatically
+        function generateSVGSnake(id, color1, color2) {
+            return `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" shape-rendering="crispEdges"><rect width="24" height="24" fill="%23050505"/><path d="M6,8 h4 v1 h2 v-1 h1 v-1 h2 v1 h2 v1 h1 v3 h-1 v1 h-1 v1 h-1 v1 h-1 v1 h-2 v-1 h-2 v-1 h-2 v-1 h-2 v-1 h-2 v-2 h1 v-1 h1 v-1 z" fill="${color1}"/><rect x="9" y="9" width="1" height="1" fill="%23fff"/><rect x="17" y="11" width="2" height="1" fill="${color2}"/></svg>`;
+        }
+
+        const nftData = [
+            { id: "#0042", name: "Toxic Viper", price: "0.15 ETH", img: generateSVGSnake(1, '%2300ff41', '%23ff0055') },
+            { id: "#1337", name: "Cyber Cobra", price: "0.50 ETH", img: generateSVGSnake(2, '%2300ffff', '%23ffff00') },
+            { id: "#8080", name: "Mecha Python", price: "0.22 ETH", img: generateSVGSnake(3, '%23ff00ff', '%23ffffff') },
+            { id: "#0999", name: "Void Adder", price: "0.18 ETH", img: generateSVGSnake(4, '%23555555', '%23ff0000') },
+            { id: "#4021", name: "Neon Boa", price: "0.30 ETH", img: generateSVGSnake(5, '%23ffaa00', '%2300ff41') },
+            { id: "#0001", name: "Genesis Ouro", price: "5.00 ETH", img: generateSVGSnake(6, '%23ffffff', '%23000000') },
+        ];
+
+        const track = document.getElementById('nft-track');
+
+        // Populate Slider
+        nftData.forEach(nft => {
+            const card = document.createElement('div');
+            card.className = 'nft-card pixel-border';
+            card.innerHTML = `
+                <div class="nft-img-placeholder">
+                    <img src="${nft.img}" alt="${nft.name}" style="width:90%; height:90%; image-rendering: pixelated;">
+                </div>
+                <div class="nft-info">
+                    <h3>${nft.name} <span>${nft.id}</span></h3>
+                    <p>Last Sold: ${nft.price}</p>
+                </div>
+            `;
+            track.appendChild(card);
+        });
+
+        // Slider Movement Logic
+        let currentSlide = 0;
+        const cardWidth = 330; // 300px width + 30px gap
+        const maxSlides = nftData.length; 
+
+        // Determine how many slides fit on screen to stop scrolling at the end
+        function getVisibleSlides() {
+            return window.innerWidth / cardWidth;
+        }
+
+        function updateSliderPosition() {
+            track.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            // Don't scroll past the end
+            if (currentSlide < maxSlides - Math.floor(getVisibleSlides())) {
+                currentSlide++;
+                updateSliderPosition();
+            } else {
+                // Optional: Loop back to start
+                currentSlide = 0;
+                updateSliderPosition();
+            }
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateSliderPosition();
+            }
+        });
+
+    </script>
+</body>
+</html>

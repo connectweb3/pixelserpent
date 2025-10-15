@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Serpents | NFT Gaming Collection</title>
+    
+    <!-- Google Fonts: Press Start 2P for the pixel look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper.js CSS for the slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        :root {
+            --primary: #00ff41; /* Matrix/Retro Green */
+            --secondary: #9d00ff; /* Cyber Purple */
+            --bg-dark: #050505;
+            --bg-panel: #111111;
+            --text-light: #ffffff;
+            --pixel-font: 'Press Start 2P', cursive;
+            --body-font: 'Rajdhani', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: var(--body-font);
+            overflow-x: hidden;
+            /* Custom Pixel Cursor */
+            cursor: crosshair;
+        }
+
+        /* --- Typography & Utilities --- */
+        h1, h2, h3, .pixel-text {
+            font-family: var(--pixel-font);
+            text-transform: uppercase;
+            line-height: 1.4;
+        }
+
+        .neon-text {
+            color: var(--text-light);
+            text-shadow: 0 0 5px var(--primary), 0 0 15px var(--primary);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* --- Three.js Canvas Container --- */
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none; /* Let clicks pass through */
+            opacity: 0.6;
+        }
+
+        /* --- Header/Nav --- */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 20px 0;
+            z-index: 100;
+            background: linear-gradient(to bottom, rgba(5,5,5,0.9), transparent);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .cta-btn {
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            padding: 10px 20px;
+            font-family: var(--pixel-font);
+            font-size: 0.7rem;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            /* Pixelated corners approximation */
+            box-shadow: 
+                inset -2px -2px 0px 0px #000,
+                inset 2px 2px 0px 0px #000;
+        }
+
+        .cta-btn:hover {
+            background: var(--primary);
+            color: var(--bg-dark);
+            box-shadow: 0 0 15px var(--primary);
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+            display: block;
+            font-size: 4rem;
+            margin-top: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            max-width: 600px;
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .glitch-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* --- Collection Slider Section --- */
+        .collection {
+            padding: 100px 0;
+            position: relative;
+            background: linear-gradient(to bottom, transparent, var(--bg-dark) 20%);
+            z-index: 2;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+        /* Swiper Styles */
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            background-color: var(--bg-panel);
+            border: 4px solid var(--bg-dark);
+            /* The outer glow */
+            box-shadow: 0 0 10px var(--primary);
+            display: flex;
+            flex-direction: column;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .swiper-slide-active {
+            border-color: var(--primary);
+            box-shadow: 0 0 20px var(--primary), inset 0 0 20px var(--primary);
+        }
+
+        .nft-image {
+            width: 100%;
+            height: 75%;
+            background-color: #2a2a2a;
+            /* Crucial for pixel art crispness */
+            image-rendering: pixelated; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Placeholder pixel art generation via CSS (replace with <img> in production) */
+        .generated-serpent {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        /* Giving placeholders distinct colors */
+        .s1 { background: radial-gradient(circle, #00ff41 10%, transparent 10%), repeating-linear-gradient(45deg, #111 0, #111 10px, #222 10px, #222 20px); }
+        .s2 { background: radial-gradient(circle, #9d00ff 10%, transparent 10%), repeating-linear-gradient(135deg, #111 0, #111 10px, #330000 10px, #330000 20px); }
+        .s3 { background: radial-gradient(circle, #ff0055 10%, transparent 10%), repeating-linear-gradient(90deg, #111 0, #111 10px, #000033 10px, #000033 20px); }
+        .s4 { background: radial-gradient(circle, #ffff00 10%, transparent 10%), repeating-linear-gradient(0deg, #111 0, #111 10px, #222 10px, #222 20px); }
+        .s5 { background: radial-gradient(circle, #00ffff 10%, transparent 10%), repeating-linear-gradient(45deg, #333 0, #333 10px, #444 10px, #444 20px); }
+
+
+        .nft-info {
+            height: 25%;
+            padding: 15px;
+            background: var(--bg-panel);
+            border-top: 2px solid #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .nft-info h3 {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            margin-bottom: 5px;
+        }
+
+        .nft-rarity {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        /* --- Stats Section (Gaming Feel) --- */
+        .stats-bar {
+            background: var(--bg-panel);
+            border-top: 2px solid var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding: 30px 0;
+            margin-bottom: 50px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .stat-item p {
+            font-family: var(--pixel-font);
+            font-size: 0.6rem;
+            color: #888;
+        }
+
+        /* --- Footer --- */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+            position: relative;
+            z-index: 2;
+            background: var(--bg-dark);
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* --- Responsive Adjustments --- */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.5rem; }
+            .hero h1 span { font-size: 2.5rem; }
+            .swiper-slide { width: 240px; height: 340px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Three.js Background Canvas -->
+    <div id="canvas-container"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo pixel-text">PIXEL<br>SERPENTS</a>
+                <a href="#mint" class="cta-btn">CONNECT WALLET</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="neon-text">
+                        Enter the Realm of
+                        <span class="glitch-wrapper">PIXEL SERPENTS</span>
+                    </h1>
+                    <p>8,888 algorithmically generated pixel-art serpents battling on the blockchain. Collect, breed, and dominate in the upcoming P2E arena.</p>
+                    
+                    <div style="margin-top: 40px;">
+                        <a href="#collection" class="cta-btn" style="font-size: 1rem; padding: 15px 30px;">VIEW COLLECTION</a>
+                        <a href="#discord" class="cta-btn" style="margin-left: 20px; border-color: var(--secondary); color: var(--secondary);">JOIN DISCORD</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>8,888</h3>
+                        <p>Total Supply</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>0.05 ETH</h3>
+                        <p>Mint Price</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>150+</h3>
+                        <p>Unique Traits</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Q4 2023</h3>
+                        <p>Game Launch</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NFT Slider Section -->
+        <section id="collection" class="collection">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="pixel-text">LEGENDARY SERPENTS</h2>
+                    <p style="color: #888;">A glimpse into the rarest generative beasts.</p>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="nft-image">
+                                <!-- Replace div below with <img src="your-nft.png"> -->
+                                <div class="generated-serpent s1"></div>
+                            </div>
+                            <div class="nft-info">
+                                <h3 class="pixel-text">Serpent #1024</h3>
+                                <span class="nft-rarity" style="color: var(--primary)">TOXIC RARE</span>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="nft-image">
+                                <div class="generated-serpent s2"></div>
+                            </div>
+                            <div class="nft-info">
+                                <h3 class="pixel-text">Serpent #088</h3>
+                                <span class="nft-rarity">VOID WALKER</span>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="nft-image">
+                                <div class="generated-serpent s3"></div>
+                            </div>
+                            <div class="nft-info">
+                                <h3 class="pixel-text">Serpent #4096</h3>
+                                <span class="nft-rarity" style="color: #ff0055">CRIMSON ELITE</span>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="nft-image">
+                                <div class="generated-serpent s4"></div>
+                            </div>
+                            <div class="nft-info">
+                                <h3 class="pixel-text">Serpent #001</h3>
+                                <span class="nft-rarity" style="color: #ffff00">GOLDEN GENESIS</span>
+                            </div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="nft-image">
+                                <div class="generated-serpent s5"></div>
+                            </div>
+                            <div class="nft-info">
+                                <h3 class="pixel-text">Serpent #777</h3>
+                                <span class="nft-rarity" style="color: #00ffff">CYBER GHOST</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3 class="pixel-text" style="color: var(--primary); margin-bottom: 20px;">PIXEL SERPENTS</h3>
+            <p>&copy; 2023 Pixel Serpents Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Swiper.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        /* --------------------------------------------------------
+           1. Three.js Dynamic Pixelated Background Effect
+           Creates a floating grid of "pixels" (cubes)
+        -------------------------------------------------------- */
+        const container = document.getElementById('canvas-container');
+        
+        // Scene Setup
+        const scene = new THREE.Scene();
+        // Fog to fade out distant pixels
+        scene.fog = new THREE.FogExp2(0x050505, 0.05);
+
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: false }); // antialias false for sharper pixels
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        container.appendChild(renderer.domElement);
+
+        // Geometry: Create many small cubes (pixels)
+        const geometry = new THREE.BoxGeometry(0.2, 0.2, 0.2);
+        
+        // Material: Neon green wireframe or solid
+        const material = new THREE.MeshBasicMaterial({ 
+            color: 0x00ff41,
+            wireframe: false
+        });
+
+        const pixels = [];
+        const pixelCount = 600;
+
+        for (let i = 0; i < pixelCount; i++) {
+            const mesh = new THREE.Mesh(geometry, material);
+            
+            // Random positioning in a cloud
+            mesh.position.x = (Math.random() - 0.5) * 30;
+            mesh.position.y = (Math.random() - 0.5) * 30;
+            mesh.position.z = (Math.random() - 0.5) * 30;
+            
+            // Random rotation
+            mesh.rotation.x = Math.random() * Math.PI;
+            mesh.rotation.y = Math.random() * Math.PI;
+
+            // Store initial position for animation
+            mesh.userData = {
+                speedY: 0.01 + Math.random() * 0.02,
+                speedX: (Math.random() - 0.5) * 0.01,
+                rotSpeed: (Math.random() - 0.5) * 0.02
+            };
+
+            scene.add(mesh);
+            pixels.push(mesh);
+        }
+
+        camera.position.z = 15;
+
+        // Animation Loop
+        let time = 0;
+        function animate() {
+            requestAnimationFrame(animate);
+            time += 0.005;
+
+            // Slight camera sway
+            camera.position.x += Math.sin(time) * 0.01;
+            camera.position.y += Math.cos(time) * 0.01;
+            camera.lookAt(scene.position);
+
+            // Animate individual pixels
+            pixels.forEach(p => {
+                p.rotation.x += p.userData.rotSpeed;
+                p.rotation.y += p.userData.rotSpeed;
+                
+                // Float upwards like digital bubbles
+                p.position.y += p.userData.speedY;
+                p.position.x += Math.sin(p.position.y) * p.userData.speedX;
+
+                // Reset if too high
+                if (p.position.y > 15) {
+                    p.position.y = -15;
+                }
+            });
+
+            renderer.render(scene, camera);
+        }
+
+        animate();
+
+        // Handle Window Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+
+        /* --------------------------------------------------------
+           2. Swiper.js NFT Slider Configuration
+           Uses 'Coverflow' effect for 3D presentation
+        -------------------------------------------------------- */
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            initialSlide: 2, // Start in middle
+            loop: true,
+            coverflowEffect: {
+                rotate: 30, // Rotation angle
+                stretch: 0,
+                depth: 200, // Depth offset
+                modifier: 1,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+</body>
+</html>
