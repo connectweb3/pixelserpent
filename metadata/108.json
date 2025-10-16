@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent098",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Cool Gray"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Keffiyeh"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mint Green Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sari"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Scar Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain blush pink"
+    }
+  ]
+}

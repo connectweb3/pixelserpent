@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent019",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Wizard Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Wizard Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angel Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angelic Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain champagne"
+    }
+  ]
+}

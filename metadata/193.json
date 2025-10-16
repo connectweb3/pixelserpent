@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent180",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Festival Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dark brown Space Buns"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Energy Core Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Heterochromia"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

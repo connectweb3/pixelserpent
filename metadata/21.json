@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent021",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sombrero"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ombre Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Shadow Assassin Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Data Stream Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sneer"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

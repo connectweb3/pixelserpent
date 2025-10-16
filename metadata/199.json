@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent186",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Energy Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Stealth Operative Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Serious"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain off-white"
+    }
+  ]
+}

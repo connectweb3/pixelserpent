@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent004",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Feathered Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Ombre"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Graffiti Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Frost Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Laughing"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain powder blue"
+    }
+  ]
+}

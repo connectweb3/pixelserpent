@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent334",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Coif"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blue Galaxy Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crusader Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dollar Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

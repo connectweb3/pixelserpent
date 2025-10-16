@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent239",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gradient Sunset"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bucket Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Rasta Dreads"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Vampire Noble Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Silver Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain khaki"
+    }
+  ]
+}

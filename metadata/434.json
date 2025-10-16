@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent380",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Coif"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Viking Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Runic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Stitched Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel lime"
+    }
+  ]
+}

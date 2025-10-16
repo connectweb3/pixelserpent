@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent086",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Gas Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mystic Purple Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Dress"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cosmic Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Ice Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent043",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Druid Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Chrome Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pirate Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Serious"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lavender"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent378",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sallet Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Bald"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Kilt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Vampire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Big Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

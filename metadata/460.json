@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent405",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "War Bonnet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Fire Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Quantum Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Void Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

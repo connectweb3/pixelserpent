@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent074",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Viking Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy K-Pop Style Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Squire Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Eye Patch"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Wounded Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

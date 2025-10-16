@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent079",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Mecha Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Neon Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Void Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cloth Wrap"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

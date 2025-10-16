@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent173",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Fedora"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Emerald Neon Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Apocalypse Survivor Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cursed Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

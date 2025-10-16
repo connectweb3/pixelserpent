@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent091",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tribal Headdress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Wolf Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Police Uniform"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tattooed Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Side Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

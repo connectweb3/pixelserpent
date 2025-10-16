@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent430",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Top Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Grey Rockstar Shag"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tactical Vest"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloody Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mechanical Filter"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

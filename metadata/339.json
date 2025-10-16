@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent293",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Wasteland Wanderer Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloody Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Talking"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

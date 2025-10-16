@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent170",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Poncho"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tech Scanner"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Possessed Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

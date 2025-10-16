@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent017",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Platinum"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet Native Feather Braid"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Steampunk Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Galaxy Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Vapor Tube Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel magenta"
+    }
+  ]
+}

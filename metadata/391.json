@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent344",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Slicked Back"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Neon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Talking"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain linen"
+    }
+  ]
+}

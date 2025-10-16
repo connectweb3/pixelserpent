@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent375",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Fedora"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Glass Fiber Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crystal Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Shadow Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Closed Lip"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel mint"
+    }
+  ]
+}

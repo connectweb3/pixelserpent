@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent366",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Puffer Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Curtain Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hacker Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lightning Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angelic Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel peach"
+    }
+  ]
+}

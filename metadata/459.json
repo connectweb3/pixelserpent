@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent404",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bandana"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dirty blonde Fire Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Wizard Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Infinity Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

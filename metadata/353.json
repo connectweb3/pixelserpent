@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent307",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "AI Interface Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blue Pixie Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Ninja Gi"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Binary Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Yawning"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

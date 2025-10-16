@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent372",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Bob Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Spirit Cloak"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Celestial Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gas Mask Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

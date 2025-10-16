@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent233",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "War Bonnet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Peach Techno Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Stick in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain off-white"
+    }
+  ]
+}

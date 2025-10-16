@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent420",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Cool Gray"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Headscarf"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Blonde"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crystal Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Neon Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Torn Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

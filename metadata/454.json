@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent399",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Galaxy Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Stealth Operative Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Hacker Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

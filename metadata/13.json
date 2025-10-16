@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent013",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pink Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crop Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Glance"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Digital Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

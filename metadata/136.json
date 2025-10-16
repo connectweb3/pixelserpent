@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent124",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Lavender"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Elven Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Holo Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Demon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Holo Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale gold"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent288",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Royal Coronet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dark brown Samurai Topknot"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Barong Tagalog"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lunar Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Frown"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

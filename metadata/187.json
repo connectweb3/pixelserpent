@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent175",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "AI Interface Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Mirror Finish Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crop Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Earth Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Hacker Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain tan"
+    }
+  ]
+}

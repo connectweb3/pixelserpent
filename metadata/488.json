@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent433",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pearl"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Snapback"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Battle Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ice Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seashell"
+    }
+  ]
+}

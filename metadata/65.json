@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent061",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Fedora"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Space Buns"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Jumpsuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Vampire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Oxygen Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel mint"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent382",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Gas Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Cyan Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Safari Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mechanical Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel peach"
+    }
+  ]
+}

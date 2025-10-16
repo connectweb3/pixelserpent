@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent125",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Nano Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Kilt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bandana Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

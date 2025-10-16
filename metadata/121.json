@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent110",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Viking Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black K-Pop Style Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Metal Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel magenta"
+    }
+  ]
+}

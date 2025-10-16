@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent303",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sombrero"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Anime Twin Tails"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pirate Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ethereal Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

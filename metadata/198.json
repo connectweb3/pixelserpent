@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent185",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Cyan Native Feather Braid"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Wounded Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel violet"
+    }
+  ]
+}

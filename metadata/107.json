@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent097",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ski Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Anime Twin Tails"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cosmic Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Solar Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Faceplate"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain linen"
+    }
+  ]
+}

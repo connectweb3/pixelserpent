@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent326",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Moon Tiara"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angel Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Toothpick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

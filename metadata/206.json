@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent192",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Plumed Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange LED Streak Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Dark Knight Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Focused"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tooth Gem"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent131",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Mint"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Spirit Flame Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Squire Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cat Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Ethereal Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain coral"
+    }
+  ]
+}

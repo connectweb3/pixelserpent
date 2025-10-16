@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent412",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Goggles"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Purple Buzz Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hacker Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Spirit Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gritted Teeth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

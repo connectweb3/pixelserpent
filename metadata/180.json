@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent168",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Iridescent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Neon Pink Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tracksuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Demon Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain khaki"
+    }
+  ]
+}

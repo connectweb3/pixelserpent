@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent337",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Druid Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Curtain Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Dress"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blind Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Voice Modulator"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel peach"
+    }
+  ]
+}

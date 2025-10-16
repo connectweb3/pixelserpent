@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent200",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Viking Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Copper Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Firefighter Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Holographic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Scar Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

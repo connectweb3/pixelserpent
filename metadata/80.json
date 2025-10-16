@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent076",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Pagri"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Layered Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Demon Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dollar Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Digital Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pistachio green"
+    }
+  ]
+}

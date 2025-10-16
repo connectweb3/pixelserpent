@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent073",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blue Graffiti Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chainmail Hauberk"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Shadow Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dragon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

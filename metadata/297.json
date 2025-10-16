@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent264",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tribal Headdress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hacker Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cybernetic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cracked Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

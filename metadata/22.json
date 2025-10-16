@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent022",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Druid Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Peach Bob Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hanbok"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Shy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Spirit Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain cream"
+    }
+  ]
+}

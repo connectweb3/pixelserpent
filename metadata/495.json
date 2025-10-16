@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent439",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Biker Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Rasta Dreads"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Denim Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Solar Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Broken Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

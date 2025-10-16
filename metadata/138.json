@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent126",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pale White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Chrome Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cargo Pants Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cat Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

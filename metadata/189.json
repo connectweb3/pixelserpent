@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent177",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Gas Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ginger Anime Twin Tails"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Engineer Jumpsuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Metal Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel pink"
+    }
+  ]
+}

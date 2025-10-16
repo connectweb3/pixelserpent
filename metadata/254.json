@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent230",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Mint"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mahogany Buzz Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Graffiti Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Diamond Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Small Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain orchid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent008",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rainbow Gradient"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Demon Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Techno Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Techwear Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Scarred Gaze"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tooth Gem"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

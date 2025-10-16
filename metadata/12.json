@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent012",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beret"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Wolf Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Holo Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "X-Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fanged Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

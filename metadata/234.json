@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent215",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Galaxy Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Barong Tagalog"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bitcoin Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Radiation Filter"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

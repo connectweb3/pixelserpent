@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent249",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Copper Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cheongsam"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Neon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bubble Gum Bubble"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain cream"
+    }
+  ]
+}

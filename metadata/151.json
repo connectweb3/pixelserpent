@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent139",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dirty blonde Messy Bun"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Frost Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Oxygen Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

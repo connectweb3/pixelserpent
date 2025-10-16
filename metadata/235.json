@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent216",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Top Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Tips"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Battle Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sharp Teeth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

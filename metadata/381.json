@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent335",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Viking Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Business Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Serious"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bloody Fangs"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

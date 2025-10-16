@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent364",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beret"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Curtain Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crimson War Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Aura Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

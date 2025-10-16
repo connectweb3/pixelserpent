@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent056",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horned Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Long Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Elf Ranger Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Squinting"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Possessed Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

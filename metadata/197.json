@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent184",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Kettle Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hazmat Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Galaxy Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Shadow Mist"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel pink"
+    }
+  ]
+}

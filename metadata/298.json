@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent265",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Astral Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rainbow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Space Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Broken Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

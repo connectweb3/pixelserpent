@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent116",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Cyber Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise AI Core Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Squire Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Wheat Stem"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

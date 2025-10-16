@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent345",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Caramel"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Kabuto"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Classic Slick Back"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Necromancer Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Earth Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bruised Lip"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale gold"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent276",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Lavender"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Laurel Wreath"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Wolf Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Space Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Matchstick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

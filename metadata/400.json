@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent353",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Keffiyeh"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise Runic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bandaged Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dragon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

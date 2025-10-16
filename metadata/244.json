@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent224",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Lavender K-Pop Style Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tribal Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glitch Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cloth Wrap"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

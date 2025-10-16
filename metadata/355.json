@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent309",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horned Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Taper Fade"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chainmail Hauberk"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lightning Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Whistling"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

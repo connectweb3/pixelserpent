@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent234",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Turban"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Coral Pink Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sellsword Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pixel Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Faceplate"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

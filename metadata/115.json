@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent104",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Angel Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Crimson Streaks"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Ceremonial Garb"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cosmic Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale green"
+    }
+  ]
+}

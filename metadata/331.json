@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent286",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Peach Crystal Shards Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Galaxy Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent391",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bascinet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ice Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cosmic Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Time Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Broken Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain apricot"
+    }
+  ]
+}

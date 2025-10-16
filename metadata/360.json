@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent314",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Puffer Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Fiery Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chef Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cracked Lens"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rose in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

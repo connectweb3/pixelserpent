@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent046",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Headband"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Layered Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hanbok"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tattooed Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Silly Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

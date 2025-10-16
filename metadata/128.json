@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent117",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Celestial Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crystal Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Celestial Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Talking"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

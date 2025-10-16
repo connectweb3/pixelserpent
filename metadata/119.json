@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent108",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Witch Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal AI Core Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Lab Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sunfire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cracked Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent328",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Laurel Wreath"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Demon Horn Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Firefighter Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Void Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bandaged Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain khaki"
+    }
+  ]
+}

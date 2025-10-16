@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent343",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Iridescent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Nano Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Techwear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tech Scanner"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Small Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

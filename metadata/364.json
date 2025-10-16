@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent318",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Wimple"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Short Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Techwear Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Mechanical Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gold Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seashell"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent156",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Fairy Garland"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet Geisha Bun"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Energy Core Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Demon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tech Implant Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

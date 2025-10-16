@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent299",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Steampunk Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ethereal Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gritted Teeth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

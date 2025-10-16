@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent322",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Headband"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blue Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Apocalypse Survivor Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Glance"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Spirit Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

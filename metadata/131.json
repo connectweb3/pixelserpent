@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent119",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Caramel"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Android Frame Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yin-Yang Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lip Bite"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale green"
+    }
+  ]
+}

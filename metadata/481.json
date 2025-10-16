@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent426",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beanie"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green K-Pop Style Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cosmic Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Upward Gaze"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

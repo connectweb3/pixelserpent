@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent042",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Trilby"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Exo Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wind Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Monster Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

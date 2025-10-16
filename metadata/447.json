@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent393",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet Demon Horn Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hanbok"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Stick in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

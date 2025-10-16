@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent252",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Festival Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Liquid Metal Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Medieval Tunic"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

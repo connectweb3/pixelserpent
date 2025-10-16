@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent221",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pearl"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Elven Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crusader Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Aura Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rune Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

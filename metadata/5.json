@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent005",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Warm Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Neon Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Starlight Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Necromancer Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Silly Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain coral"
+    }
+  ]
+}

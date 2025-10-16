@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent238",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sun Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Shaman Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Matchstick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lilac"
+    }
+  ]
+}

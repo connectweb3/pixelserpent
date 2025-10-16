@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent071",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Techwear Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Missing Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

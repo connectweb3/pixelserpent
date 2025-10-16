@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent269",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beanie"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Flow"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sports Jersey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Lunar Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fanged Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

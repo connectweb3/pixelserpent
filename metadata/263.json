@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent236",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Royal Coronet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dirty blonde Crystal Shards Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cosmic Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clock Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Matchstick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lemon"
+    }
+  ]
+}

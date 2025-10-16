@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent324",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Neon"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Monk Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Runic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Festival Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Small Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lavender"
+    }
+  ]
+}

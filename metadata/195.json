@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent182",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Keffiyeh"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Grey Translucent Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Paladin Plate Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bubble Gum Bubble"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

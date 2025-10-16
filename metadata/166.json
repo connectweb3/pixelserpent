@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent154",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Warm Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crown"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Techwear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Serpent Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lemon"
+    }
+  ]
+}

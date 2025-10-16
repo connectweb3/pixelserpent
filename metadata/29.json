@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent029",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Monk Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet Native Feather Braid"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Exo Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Holographic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

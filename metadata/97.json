@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent089",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Wizard Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Copper Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Bomber Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Void Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Poison Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

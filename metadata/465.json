@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent410",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Red Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Safari Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ancient Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bloody Fangs"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain off-white"
+    }
+  ]
+}

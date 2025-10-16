@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent151",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Celtic Knot Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crusader Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Iridescent Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Skeleton Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lavender"
+    }
+  ]
+}

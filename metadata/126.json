@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent115",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horned Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Slicked Back"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hazmat Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Spirit Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gold Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel magenta"
+    }
+  ]
+}

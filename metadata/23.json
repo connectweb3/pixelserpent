@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent023",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Street Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal 90s Fluffy Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sellsword Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Surprised"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Laughing"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain apricot"
+    }
+  ]
+}

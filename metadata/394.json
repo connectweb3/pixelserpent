@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent347",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Elven Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Ombre"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Denim Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Crystal Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cloth Wrap"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain periwinkle"
+    }
+  ]
+}

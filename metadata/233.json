@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent214",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bandana"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Glass Fiber Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tactical Vest"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Augmented Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angelic Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain khaki"
+    }
+  ]
+}

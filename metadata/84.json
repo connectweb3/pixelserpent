@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent080",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Headband"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Blonde"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Android Frame Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ancient Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Closed Lip"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale green"
+    }
+  ]
+}

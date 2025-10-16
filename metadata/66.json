@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent062",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Caramel"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Snapback"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Straight Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Astronaut Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "X-Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fire Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent283",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Wide-Brim Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pink Crystal Shards Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tired Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Vapor Tube Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

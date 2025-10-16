@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent267",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bascinet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Classic Slick Back"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Trench Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Surprised"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

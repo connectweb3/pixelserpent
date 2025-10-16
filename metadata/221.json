@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent202",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Puffer Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Neon Pink Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Business Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloody Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smiling"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

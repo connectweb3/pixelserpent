@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent436",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crusader Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Volcanic Ash Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sunfire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Beast Roar"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

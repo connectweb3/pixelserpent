@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent057",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Flannel Shirt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sunfire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Straw in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lemon"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent084",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sun Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ice Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Windbreaker"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Moonlight Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Radiation Filter"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain cream"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent169",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Neon Pink Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Celestial Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Time Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Scarred Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent153",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Serpent Band"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Fiery Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Techwear Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bandaged Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mechanical Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

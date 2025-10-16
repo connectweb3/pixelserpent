@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent295",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pink Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tired Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Slight Open"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

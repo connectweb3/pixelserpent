@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent081",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Snap Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Steampunk Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Neon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Monster Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lilac"
+    }
+  ]
+}

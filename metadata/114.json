@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent103",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Sunset Fade Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Kurta"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Runic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bite Mark"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

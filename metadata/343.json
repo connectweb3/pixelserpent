@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent297",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Demon Horns"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sari"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Holographic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel violet"
+    }
+  ]
+}

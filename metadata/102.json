@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent093",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Hennin"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Orange Firefly Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Festival Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Scarred Gaze"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pixel Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lilac"
+    }
+  ]
+}

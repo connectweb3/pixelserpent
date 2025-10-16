@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent050",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Kettle Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Digital Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Raincoat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Heart Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Candy Stick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

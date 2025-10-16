@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent242",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Feathered Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Pixie Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Barong Tagalog"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Celestial Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

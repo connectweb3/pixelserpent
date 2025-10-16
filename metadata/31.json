@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent030",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Cyber Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Slicked Back"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Battle Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Squinting"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Talking"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

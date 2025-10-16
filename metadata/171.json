@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent159",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sun Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dollar Pupils"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pistachio"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent105",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bandana"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Purple Fire Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Spacesuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Scarred Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

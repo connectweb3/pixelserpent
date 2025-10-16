@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent333",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Straw Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mint green Afro"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crop Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clock Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cursed Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

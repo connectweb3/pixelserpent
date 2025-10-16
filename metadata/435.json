@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent381",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rainbow Gradient"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Volcanic Ash Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tribal Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Squinting"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pout"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel mint"
+    }
+  ]
+}

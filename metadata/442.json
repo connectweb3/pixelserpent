@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent388",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Viking Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Viking Tunic"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain butter yellow"
+    }
+  ]
+}

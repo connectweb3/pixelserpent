@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent223",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Lavender"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Barbute"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Spirit Flame Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Dark Knight Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dragon Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Whistling"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lemon"
+    }
+  ]
+}

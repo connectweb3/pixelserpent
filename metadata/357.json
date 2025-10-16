@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent311",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Astral Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Graffiti Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Jumpsuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tattooed Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Shadow Mist"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

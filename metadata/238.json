@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent219",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Hijab"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Starlight Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cargo Pants Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Digital Display Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Side Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

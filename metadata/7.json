@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent007",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Mystic Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Holo Tips"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Assassin Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Closed"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Vampire Bite"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain apricot"
+    }
+  ]
+}

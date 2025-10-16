@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent304",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Astral Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Ethereal Flowing Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Hacker Hoodie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bruised Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Ethereal Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

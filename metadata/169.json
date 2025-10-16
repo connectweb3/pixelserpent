@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent157",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Coif"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Victorian Curls"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Galaxy Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Celestial Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

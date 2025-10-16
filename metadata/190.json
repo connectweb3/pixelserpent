@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent178",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Straw Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blue Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Kimono"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Neon Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bruised Lip"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

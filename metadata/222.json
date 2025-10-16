@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent203",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tactical Vest"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain off-white"
+    }
+  ]
+}

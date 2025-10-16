@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent003",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ebony"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ocean Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Varsity Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "HUD Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Poison Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

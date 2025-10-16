@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent164",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Kettle Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dirty blonde Bob Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crimson War Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cursed Eyes"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain champagne"
+    }
+  ]
+}

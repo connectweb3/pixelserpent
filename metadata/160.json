@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent148",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Warm Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Druid Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pink Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Kilt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Data Stream Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel lime"
+    }
+  ]
+}

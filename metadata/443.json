@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent389",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Druid Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Holo Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Infinity Pupils"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale green"
+    }
+  ]
+}

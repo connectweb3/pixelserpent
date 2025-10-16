@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent006",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tech Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Victorian Curls"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Lab Coat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Possessed Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Skeleton Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

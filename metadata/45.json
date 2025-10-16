@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent041",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tribal Headdress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Shaman Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dark Matter Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Skeleton Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lemon"
+    }
+  ]
+}

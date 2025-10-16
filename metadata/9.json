@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent009",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Moon Tiara"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Paramedic Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Infrared Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

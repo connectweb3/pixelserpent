@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent052",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Kabuto"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Synthetic Fiber Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Astral Cloak"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bloody Fangs"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain coral"
+    }
+  ]
+}

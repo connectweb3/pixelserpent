@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent331",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Kettle Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Curtain Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Spacesuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyber Eye Implant"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain orchid"
+    }
+  ]
+}

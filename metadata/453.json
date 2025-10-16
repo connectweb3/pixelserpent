@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent398",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Angel Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Spiky Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Raincoat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Closed"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pout"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

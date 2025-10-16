@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent025",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Neon"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Nano Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Peach Mirror Finish Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Desert Combat Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "VR Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Monster Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain champagne"
+    }
+  ]
+}

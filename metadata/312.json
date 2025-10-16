@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent275",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Long Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tank Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Matrix Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Metal Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

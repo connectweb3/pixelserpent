@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent231",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Lavender"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Nano Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dark brown Buzz Cut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sports Jersey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ethereal Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Slight Open"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

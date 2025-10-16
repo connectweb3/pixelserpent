@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent342",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Espresso"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mahogany Mirror Finish Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chainmail Hauberk"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sunfire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Possessed Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain powder blue"
+    }
+  ]
+}

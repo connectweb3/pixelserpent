@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent348",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "War Bonnet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Glass Fiber Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Astral Cloak"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

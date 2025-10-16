@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent123",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Goggles"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Battle Mage Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pipe"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain blush pink"
+    }
+  ]
+}

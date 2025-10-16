@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent363",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Plumed Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Flow"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Mage Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Squinting"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Poison Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

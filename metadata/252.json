@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent228",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ebony"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ski Mask"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Spirit Flame Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pilot Uniform"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pixel Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gas Mask Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pistachio green"
+    }
+  ]
+}

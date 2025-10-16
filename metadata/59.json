@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent055",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Witch Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise AI Core Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pilot Uniform"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Crystal Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Ghostly Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain butter yellow"
+    }
+  ]
+}

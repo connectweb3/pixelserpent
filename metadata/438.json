@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent384",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Kabuto"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Messy Bun"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Viking Tunic"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Phoenix Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Side Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain tan"
+    }
+  ]
+}

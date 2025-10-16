@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent127",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Royal Coronet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Layered Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Steampunk Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Time Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cursed Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

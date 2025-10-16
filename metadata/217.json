@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent198",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pearl"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Earphones"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Frosted Ends"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overcoat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ethereal Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bubble Gum Bubble"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain baby blue"
+    }
+  ]
+}

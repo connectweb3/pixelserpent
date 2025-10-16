@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent371",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Top Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Navy blue Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Techwear Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Augmented Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tongue Out"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain butter yellow"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent383",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Red Mirror Finish Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "1 Eye Scar"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Celestial Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

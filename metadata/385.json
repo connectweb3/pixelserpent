@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent339",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Snap Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Runic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Battle Mage Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Aura Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain butter yellow"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent047",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Cool Gray"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Space Pilot Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Ombre"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Festival Costume"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Astral Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Scar Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

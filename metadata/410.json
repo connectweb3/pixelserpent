@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent360",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bandana"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Techno Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Necromancer Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cracked Lens"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Candy Stick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent183",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Holographic Band"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Tips"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Combat Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wide Open"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Serious"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale gold"
+    }
+  ]
+}

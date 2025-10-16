@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent237",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Horned Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Moonlight Silver Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Android Frame Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cybernetic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

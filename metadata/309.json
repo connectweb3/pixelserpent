@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent272",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crusader Helm"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Translucent Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Tee and Jeans"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Determined"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain linen"
+    }
+  ]
+}

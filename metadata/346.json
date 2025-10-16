@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent300",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Stealth Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta 90s Fluffy Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Varsity Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wind Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Vampire Bite"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

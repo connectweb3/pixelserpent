@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent385",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Mint"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Fedora"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Viking Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Squire Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Astral Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent078",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gradient Sunset"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ash Gray Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Festival Costume"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Astral Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigarette"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

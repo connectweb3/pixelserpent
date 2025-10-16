@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent152",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Gradient Sunset"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Mecha Helmet"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Energy Core Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Holographic Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Matchstick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain off-white"
+    }
+  ]
+}

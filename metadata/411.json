@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent361",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "AI Interface Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Elemental Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chainmail Hauberk"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Drone Optic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

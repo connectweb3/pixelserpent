@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent111",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Sky blue Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sneer"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

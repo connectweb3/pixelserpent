@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent421",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Trilby"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Surprised"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

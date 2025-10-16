@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent279",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Mint"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Augmented Hairline"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Divine Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Demon Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

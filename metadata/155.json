@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent143",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Platinum"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Moon Tiara"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Burgundy Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sombrero Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

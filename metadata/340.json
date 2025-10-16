@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent294",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Witch Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Data Stream Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Vampire Noble Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ice Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Augmented Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

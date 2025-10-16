@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent187",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pale White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bascinet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mahogany Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Celestial Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "HUD Eyes"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain periwinkle"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent054",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Mint"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Turban"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Celtic Knot Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Safari Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cloth Wrap"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain blush pink"
+    }
+  ]
+}

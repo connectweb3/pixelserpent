@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent390",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Anime Twin Tails"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Celestial Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tired Eyes"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lilac"
+    }
+  ]
+}

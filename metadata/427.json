@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent373",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Cyber Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dark brown Chrome Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Junk Hunter Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Binary Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fire Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain apricot"
+    }
+  ]
+}

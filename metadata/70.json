@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent066",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beret"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet Celestial Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sports Jersey"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Divine Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

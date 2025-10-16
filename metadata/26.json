@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent026",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pearl"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Snap Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mint green Viking Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crimson War Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel lime"
+    }
+  ]
+}

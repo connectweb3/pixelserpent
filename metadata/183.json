@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent171",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sapphire"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Stealth Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mahogany Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pilot Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Water Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Celestial Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel magenta"
+    }
+  ]
+}

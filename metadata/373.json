@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent327",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Hennin"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Shadow Black Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Jumpsuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Frost Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

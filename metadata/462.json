@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent407",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Warm Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Holographic Band"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Violet AI Core Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cursed Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Side Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain taupe"
+    }
+  ]
+}

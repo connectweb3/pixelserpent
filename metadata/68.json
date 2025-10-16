@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent064",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ebony"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Neon Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Short Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Castle Guard Uniform"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glitch Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Poison Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint cream"
+    }
+  ]
+}

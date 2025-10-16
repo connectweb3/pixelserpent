@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent035",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Neon"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Plumed Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ombre Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Crystal Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Shadow Mist"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lavender"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent253",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Pink"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Beret"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ginger Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Ceremonial Garb"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Heart Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Straw in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain coral"
+    }
+  ]
+}

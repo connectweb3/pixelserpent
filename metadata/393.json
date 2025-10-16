@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent346",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ranger Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ginger Glitch Effect Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Combat Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Void Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Pipe"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

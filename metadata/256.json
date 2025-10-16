@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent232",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Long Wavy Blonde"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Space Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bruised Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sneer"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel light blue"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent137",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Jade"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Earphones"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Crystal Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cargo Pants Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blind Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Candy Stick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

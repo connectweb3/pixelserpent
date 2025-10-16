@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent058",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bascinet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Data Stream Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Virtual Reality Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Upward Gaze"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Poison Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain periwinkle"
+    }
+  ]
+}

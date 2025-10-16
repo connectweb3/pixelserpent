@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent217",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Knight Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Quantum Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tattooed Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Zombie Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent408",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Royal Space Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Blood Stain"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

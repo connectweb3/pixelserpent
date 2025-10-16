@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent195",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Headband"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ice Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Neon Techwear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "VR Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mechanical Filter"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain rose"
+    }
+  ]
+}

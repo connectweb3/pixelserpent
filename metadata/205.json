@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent191",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ranger Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Curtain Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cheongsam"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "VR Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cyber Scar Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mint green"
+    }
+  ]
+}

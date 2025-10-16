@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent196",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Puffer Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dirty blonde Celestial Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Mechanic Coveralls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Talking"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain periwinkle"
+    }
+  ]
+}

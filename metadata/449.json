@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent394",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Coif"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Cyber Mohawk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Astronaut Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cursed Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

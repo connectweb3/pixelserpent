@@ -1,0 +1,27 @@
+{
+  "name": "pixelserpent102",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown 90s Fluffy Bangs"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sombrero Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Possessed Eyes"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sage"
+    }
+  ]
+}

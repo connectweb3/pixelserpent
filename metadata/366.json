@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent320",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Spirit Flame Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Engineer Jumpsuit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dragon Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Spirit Breath"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

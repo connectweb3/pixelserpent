@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent142",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Holographic Band"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Samurai Topknot"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Whistling"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain coral"
+    }
+  ]
+}

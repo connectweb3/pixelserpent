@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent441",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Chef Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Purple Ponytail"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Exo Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dragon Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain champagne"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent358",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Flower Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Red Fire Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Holo Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Augmented Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Angelic Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel turquoise"
+    }
+  ]
+}

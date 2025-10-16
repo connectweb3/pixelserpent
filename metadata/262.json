@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent235",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Clay"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Newsboy Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Light brown Firefly Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Necromancer Robes"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Runic Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gritted Teeth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

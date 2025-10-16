@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent059",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Iridescent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Turban"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rose gold Side Shave"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "AI Agent Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dark Aura Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

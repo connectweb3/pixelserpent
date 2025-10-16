@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent323",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Mocha"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Knight Visor"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Holographic Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crystal Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bruised Lip"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pistachio"
+    }
+  ]
+}

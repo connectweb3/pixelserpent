@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent189",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Neon"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Puffer Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Green Chrome Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Chef Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Moonlight Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Broken Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain terracotta light"
+    }
+  ]
+}

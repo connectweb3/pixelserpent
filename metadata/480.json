@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent425",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "White"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Mystic Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Flow"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Galactic Explorer Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "X-Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigar"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain sand"
+    }
+  ]
+}

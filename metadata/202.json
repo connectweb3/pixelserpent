@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent188",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Sand"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sun Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Tribal Locks"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Polo Shirt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Binary Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Digital Synth Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel violet"
+    }
+  ]
+}

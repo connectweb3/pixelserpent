@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent207",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Frosted Ice"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Viking Braids"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Rogue Cloak"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Torn Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

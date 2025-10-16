@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent291",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Angelic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tactical Vest"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wind Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bloody Fangs"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain mauve"
+    }
+  ]
+}

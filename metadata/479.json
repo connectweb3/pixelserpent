@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent424",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Keffiyeh"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Celestial Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Shaman Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Time Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Digital Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain salmon"
+    }
+  ]
+}

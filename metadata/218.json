@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent199",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Hennin"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Holographic Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Desert Robe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bitcoin Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Oxygen Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel orange"
+    }
+  ]
+}

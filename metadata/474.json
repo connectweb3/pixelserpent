@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent419",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Samurai Kabuto"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Holo Tips"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Infinity Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Stitched Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel cyan"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent101",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Bandana"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Golden Blonde"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Leather Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Shy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rune Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain champagne"
+    }
+  ]
+}

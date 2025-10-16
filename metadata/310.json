@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent273",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Pastel Peach"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ranger Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "White Mirror Finish Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Cyber Samurai Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Tech Scanner"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Yawning"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

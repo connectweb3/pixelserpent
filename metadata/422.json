@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent369",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Serpent Band"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Blonde Taper Fade"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tribal Attire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dollar Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Dragon Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain dusty rose"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent226",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Translucent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tribal Headdress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Hot pink AI Core Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Apocalypse Survivor Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "HUD Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Missing Tooth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel mint"
+    }
+  ]
+}

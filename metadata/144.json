@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent132",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Slate"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Ushanka"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Black Short Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crusader Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ancient Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Celestial Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain orchid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent037",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ruby"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Pastel pink Fire Gradient Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tank Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Aura Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Slight Open"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

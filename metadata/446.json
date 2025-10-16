@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent392",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Teal Anime Twin Tails"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Puffer Jacket"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Fire Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel violet"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent036",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Caramel"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Biker Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Copper Afro"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Apocalypse Survivor Gear"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain honeydew"
+    }
+  ]
+}

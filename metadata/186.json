@@ -1,0 +1,31 @@
+{
+  "name": "pixelserpent174",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Headband"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Turquoise Volcanic Ash Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Quantum Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pixel Eyes"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain tan"
+    }
+  ]
+}

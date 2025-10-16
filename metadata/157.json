@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent145",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Magenta Static Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Infrared Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Oxygen Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain butter yellow"
+    }
+  ]
+}

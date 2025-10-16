@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent240",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Nano Hood"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Cyan Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Overalls"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Snake Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Leaf in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain cream"
+    }
+  ]
+}

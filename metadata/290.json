@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent257",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Copper Brown"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tribal Headdress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Brown Retro 80s Perm"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Nomad Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Binary Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cracked Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel violet"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent250",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Iridescent"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Baseball Cap"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Gold Runic Glow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Business Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Demon Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Candy Stick"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel pink"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent428",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Light Beige"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crystal Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Silver Ethereal Flowing Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Sellsword Gear"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Starry Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Gritted Teeth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel pink"
+    }
+  ]
+}

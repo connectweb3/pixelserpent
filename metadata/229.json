@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent210",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Ivory"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Keffiyeh"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Rainbow Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Poncho"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Torn Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pale green"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent034",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Neon Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Shoulder-Length Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Military Uniform"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Yellow"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Side Grin"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain ivory"
+    }
+  ]
+}

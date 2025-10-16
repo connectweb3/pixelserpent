@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent301",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Amethyst"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Circlet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Mint green Cloud Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Crusader Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Ice Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mechanical Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain lavender"
+    }
+  ]
+}

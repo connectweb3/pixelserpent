@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent287",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Rose Gold"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sun Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Platinum blonde Undercut"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Arctic Survival Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Dollar Pupils"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Yawning"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seafoam"
+    }
+  ]
+}

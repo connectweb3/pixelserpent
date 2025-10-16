@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent330",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Emerald"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sallet Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Auburn Translucent Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Paladin Plate Armor"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Squinting"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Bandana Mask"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain beige"
+    }
+  ]
+}

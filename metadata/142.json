@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent130",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Cool Gray"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Neon Helmet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Ice Blue Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Barong Tagalog"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Celestial Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Big Smile"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain seashell"
+    }
+  ]
+}

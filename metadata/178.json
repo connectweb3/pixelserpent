@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent166",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Caramel"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Energy Crown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Navy blue Synthetic Fiber Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Stealth Operative Suit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Green"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Stick in Mouth"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pastel red"
+    }
+  ]
+}

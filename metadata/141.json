@@ -1,0 +1,35 @@
+{
+  "name": "pixelserpent129",
+  "symbol": "PS",
+  "description": "Dive into the retro pixel world of Pixel Serpents!",
+  "attributes": [
+    {
+      "trait_type": "Skin Color",
+      "value": "Galaxy Pattern"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Kettle Hat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "Dark brown Cloud Hair"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Peasant Outfit"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Matrix Eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Monster Jaw"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "plain pistachio green"
+    }
+  ]
+}
